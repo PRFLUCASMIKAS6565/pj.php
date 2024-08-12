@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pizzaria Dom Rezende</title>
+    <style>
+        /* Reset básico */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body { background-color:rgb(238, 170, 170);
+            font-family: 'Arial', sans-serif;
+            color:the;
+            line-height: 1.6;
+            background-color: black;
+        }
+
+        header {
+            background-color: rgb(226, 0, 0);
+            color: rgb(255, 255, 255);
+            padding: 15px 0;
+            text-align: center;
+        }
+
+        header .logo h1 {
+            margin-bottom: 5px;
+            font-size: 36px;
+        }
+
+        header nav ul {
+            list-style: none;
+            display: flex;
+            justify-content: center;
+        }
+
+        header nav ul li {
+            margin: 0 15px;
+        }
+
+        header nav ul li a {
+            color: #000000;
+            text-decoration: none;
+            font-size: 18px;
+        }
+
+        #hero {
+            background-image: url(./R.jpeg);
+            background-size: cover;
+            background-position: center;
+            color: rgb(236, 139, 139);
+            text-align: center;
+            padding: 100px 20px;
+        }
+
+        #hero h2 {
+            font-size: 48px;
+            margin-bottom: 10px;
+        }
+
+        #hero p {
+            font-size: 24px;
+            margin-bottom: 20px;
+        }
+
+        .btn-whatsapp {
+            background-color: #ff0000;
+            color: #000000;
+            padding: 10px 20px;
+            text-decoration: none;
+            font-size: 18px;
+            border-radius: 5px;
+        }
+
+        .container {
+            padding: 50px 20px;
+            color: #e4dfdf;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        h2 {
+            text-align: center;
+            margin-bottom: 20px;
+            font-size: 32px;
+            color: rgb(216, 4, 4);
+        }
+
+        p {
+            text-align: center;
+            margin-bottom: 20px;
+            font-size: 18px;
+        }
+
+        #menu .menu-item {
+            background-color: rgb(250, 6, 6);
+            padding: 20px;
+            margin-bottom: 20px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(243, 2, 2, 0.1);
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        #menu .menu-item h3 {
+            font-size: 24px;
+            color: rgb(2, 1, 1);
+        }
+
+        #menu .menu-item p {
+            flex: 1;
+            margin: 0 20px;
+        }
+
+        #menu .menu-item span {
+            font-size: 20px;
+            color: rgb(3, 1, 1);
+        }
+
+        footer {
+            background-color: #ffffff;
+            color:rgb(252, 3, 3);
+            text-align: center;
+            padding: 15px 0;
+        }
+        h4{
+            background-color: #ff0000;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <h1>Pizzaria Dom Rezende</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#menu">Menu</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="hero">
+        <h2>As Melhores Pizzas da Cidade</h2>
+        
+    </section>
+
+    <section id="sobre" class="container">
+        <h2>Sobre Nós</h2>
+        <h4>A pizzaria “Dom Rezende” era o orgulho de um bairro tranquilo, famosa por suas pizzas crocantes e recheadas com ingredientes frescos. O fundador, Rezende, um apaixonado por culinária, criou receitas que atraíam clientes de todos os lugares. Cada noite, o local se enchia com risos e o aroma irresistível das pizzas assadas no forno a lenha. Com o tempo, “Dom Rezende” se tornou um ponto de encontro especial, onde a boa comida e a amizade se entrelaçavam.</h4>
+    </section>
+
+    <section id="menu" class="container">
+        <h2>algumas de nossa pizza</h2>
+        <div class="menu-item">
+            <h3>Mussarela</h3>
+            <p>Molho de tomate, mussarela,tomare e orégano.</p>
+            <span>35cm
+            </span>
+        </div>
+        <div class="menu-item">
+            <h3>bacon</h3>
+            <p>molho de tomate, mussarela, bacon,cebola e orégano</p>
+            <span>35cm</span>
+        </div>
+        <div class="menu-item">
+            <h3>Frango com catupury</h3>
+            <p>molho de tomate, mussarela, frango , catupury e orégano.</p>
+            <span>35cm</span>
+        </div>
+    </section>
+
+    <section id="contato" class="container">
+        <h2>Contato</h2>
+        <p>End: AV Olavo Bilac 60, Cerâmica ,Juiz de Fora-MG </p>
+        <p>Telefone: (32) 99132-3133</p>
+        <p>Instagram:dom.Rezende.Pizzaria </p>
+        <a href=" " target="_blank" class="btn-whatsapp"> pedido pelo WhatsApp!</a>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 Pizzaria Dom Rezende.</p>
+    </footer>
+</body>
+</html>
