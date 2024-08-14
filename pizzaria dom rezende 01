@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pizzaria Dom Rezende</title>
+   
+ <link rel="stylesheet" href="pagina01.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <h1>Pizzaria Dom Rezende</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#menu">Menu</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="hero">
+        <h2>As Melhores Pizzas da Cidade!</h2>
+        
+    </section>
+
+    <section id="sobre" class="container">
+        <h2>Sobre Nós</h2>
+        <h4>A pizzaria “Dom Rezende” era o orgulho de um bairro tranquilo, famosa por suas pizzas crocantes e recheadas com ingredientes frescos. O fundador, Rezende, um apaixonado por culinária, criou receitas que atraíam clientes de todos os lugares. Cada noite, o local se enchia com risos e o aroma irresistível das pizzas assadas no forno a lenha. Com o tempo, “Dom Rezende” se tornou um ponto de encontro especial, onde a boa comida e a amizade se entrelaçavam.</h4>
+    </section>
+
+    <section id="menu" class="container">
+        <h2>algumas de nossa pizza</h2>
+        <div class="menu-item">
+            <h3>Mussarela</h3>
+            <p>Molho de tomate, mussarela,tomare e orégano.</p>
+            <span>35cm
+            </span>
+        </div>
+        <div class="menu-item">
+            <h3>bacon</h3>
+            <p>molho de tomate, mussarela, bacon,cebola e orégano</p>
+            <span>35cm</span>
+        </div>
+        <div class="menu-item">
+            <h3>Frango com catupury</h3>
+            <p>molho de tomate, mussarela, frango , catupury e orégano.</p>
+            <span>35cm</span>
+        </div>
+    </section>
+
+    <section id="contato" class="container">
+        <h2>Contato</h2>
+        <p>End: AV Olavo Bilac 60, Cerâmica ,Juiz de Fora-MG </p>
+        <p>Telefone: (32) 99132-3133</p>
+        <p>Instagram:dom.Rezende.Pizzaria </p>
+        <a href=" " target="_blank" class="btn-whatsapp"> pedido pelo WhatsApp!</a>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 Pizzaria Dom Rezende.</p>
+    </footer>
+</body>
+</html>
